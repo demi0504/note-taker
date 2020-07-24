@@ -1,6 +1,6 @@
 var path = require("path");
 
-
+//Routing
 module.exports = function(app) {
   // Below code handles when users "visit" a page.
   app.get("/notes", function(req, res) {
